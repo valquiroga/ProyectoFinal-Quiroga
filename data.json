@@ -1,0 +1,20 @@
+[
+    {
+        "elemento": "Fuego",
+        "magica": "Sí",
+        "poder": 56,
+        "precio": 1020
+    },
+    {
+        "elemento": "Agua",
+        "magica": "No",
+        "poder": 32,
+        "precio": 5032
+    },
+    {
+        "elemento": "Aire",
+        "magica": "Sí",
+        "poder": 40,
+        "precio": 80
+    }
+]

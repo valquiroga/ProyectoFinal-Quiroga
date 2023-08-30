@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda de Pociones</title>
+    <link rel="shortcut icon" href="img/poti1.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Handjet&display=swap" rel="stylesheet">
+    
+</head>
+
+<body>
+    <header class="header">
+        <a href="index.html" class="logo-link">
+            <img src="img/poti1.png" alt="poción" class="logo">
+        </a>
+        <h1>Tienda de pociones</h1>
+    </header>
+
+    <main class="container-fluid" id="contenido">
+        <div class="padre-cards">
+            <!-- Card 1 -->
+            <div class="card">
+                <img src="img/potiagua.png" class="card-img">
+                <h3>Sobre las pociones</h3>
+                <button> 
+                    <a href="pages/tipos.html">IR</a>
+                </button>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="card">
+                <img src="img/potiaire.png" class="card-img">
+                <h3>Crear pociones</h3>
+                <button> 
+                    <a href="pages/crear.html">IR</a>
+                </button>
+            </div>
+
+
+    </main>
+
+    <hr>
+    
+    <p>Te puedo traer algunas pociones del depósito ya creadas para que tengas una idea de como se van a ver</p>
+
+    <button id="btnTraerPociones">Traer Pociones </button>
+    
+    <div id="deposito" ></div>
+        
+    <hr id="linea">
+
+    <footer class="footer">
+        <p>☆ María Valentina Quiroga ☆</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    <script src="./deposito.js"></script>
+</body>
+</html>
